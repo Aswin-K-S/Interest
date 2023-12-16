@@ -1,0 +1,64 @@
+.App{
+width:100vw;
+height:100vh;
+background-color: rgb(199, 177, 235);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container{
+    background-color: rgb(157, 119, 228);
+    width: 450px;
+    border-radius: 30px;
+    padding: 50px;
+}
+
+.header{
+    text-align: center;
+    margin: 10px;
+}
+
+.header h1{
+    color: rgb(27, 6, 87);
+    text-decoration: underline;
+}
+
+.header p{
+    color: antiquewhite;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 10px;
+}
+
+.total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    border-radius: 30px;
+    box-shadow: inset 4px 4px 10px 2px  rgb(106, 12, 194);
+    margin: 20px;
+    background-color: rgb(167, 152, 252);
+
+}
+
+.total h3{
+    font-size: xxx-large;
+    color: rgb(30, 3, 80);
+}
+
+.total p{
+    color: rgb(33, 3, 80);
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}

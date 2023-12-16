@@ -1,0 +1,3 @@
+window key + semicolon to use emoji
+
+window + ;
